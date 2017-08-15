@@ -8,7 +8,7 @@ public class DebugThree1 {
         calcTip(yourCheck);
     }
 
-    public static int calcTip(double bill) {
+    private static int calcTip(double bill) {
         final double RATE = 0.15;
         double tip = bill + RATE;
         System.out.println("The tip should be at least " + tip);
