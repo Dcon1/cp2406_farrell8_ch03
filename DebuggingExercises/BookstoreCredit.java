@@ -2,8 +2,9 @@
  * Created by jc441213 on 16/08/17.
  */
 import java.util.Scanner;
-public class BookstoreCredit {
-    public static void main() {
+public class BookstoreCredit
+{
+    public static void main(String args[]) {
         String name;
         Double gpa;
         Scanner input = new Scanner(System.in);
