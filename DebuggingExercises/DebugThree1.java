@@ -12,6 +12,7 @@ public class DebugThree1 {
         final double RATE = 0.15;
         double tip = bill + RATE;
         System.out.println("The tip should be at least " + tip);
+        return 2;
         //(Missing return statement) Why do I need to return?
     }
 }

@@ -16,6 +16,6 @@ public class BookstoreCredit
     }
 
     private static void calcCredit(String name, Double gpa) {
-        System.out.println("Hi " + name + ". Your grade point average is" + gpa + ". This gives you a discount of " + (gpa * 10));
+        System.out.println("Hi " + name + ". Your grade point average is " + gpa + ". This gives you a discount of " + (gpa * 10));
     }
 }
